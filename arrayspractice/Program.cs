@@ -62,7 +62,7 @@ namespace arrayspractice
             ////...n the users input converted into an int
             //ageOfStudentsInClass[0] = int.Parse(Console.ReadLine());
             //Console.WriteLine("the age of student in the first seat is " + ageOfStudentsInClass[0]);
-            ////create a new string variable and set it equal to teh int at the index 0...
+            ////create a new string variable and set it equal to the int at the index 0...
             ////and convert into a string
             //string firstIndex = ageOfStudentsInClass[0].ToString();
 
@@ -111,14 +111,46 @@ namespace arrayspractice
             //Console.WriteLine(palindromeNumbers[0]);
             //Console.WriteLine(palindromeNumbers[2]);
 
-           
+            //sort 
+            //will sort numbers in an array lowest to highest
+            //will sort char's and strings in alphabetical order from a-z
+            //string[] powerRangers = { "green", "Yellow", "Pink", "Blue", "Red", "Black" };
+            //Console.WriteLine(powerRangers[0]);
+            //Array.Sort(powerRangers);
+            //Console.WriteLine(powerRangers[0]);
 
+            //Declare and initialize a string array of first names. Choose a name to find and print the IndexOf.
+            string[] firstNames = { "Bob", "Mike", "Paige", "Jessica" };
+            Console.WriteLine(firstNames[2]);
 
+            //Create an array of lucky numbers. Each number should repeat at least once.
+            //Choose a lucky number, find and print the last index of it.
+            int[] luckyNumbers = { 45, 15, 22, 15, 22, 45 };
+            Console.WriteLine(luckyNumbers[5]);
 
+            //Create an array of alphabet characters. Print the first index of the array.
+            //Now reverse the array and print the first index.
+            char[] alphBet = { 's', 'b', 'a', 'g', 'r', 'q' };
+            Console.WriteLine(alphBet[0]);
+            Array.Reverse(alphBet);
+            Console.WriteLine(alphBet[0]);
 
+            //Create an array of student names in random order. Order the students’
+            //names using the sort method. Print the first and last students’ names.
 
+            string[] studentsNames = { "Bob", "Mike", "Paige", "Jessica" };
+            Array.Sort(studentsNames);
+            Console.WriteLine(studentsNames[0]);
+            Console.WriteLine(studentsNames[3]);
 
+            //Ask 10 people for their favorite numbers and create an array of those numbers.
+            //Order the numbers using the sort method.
+            //Print the first and last number
 
+            int[] tenNumbers = { 3, 6, 7, 8, 2, 9, 1, 4, 5, 10 };
+            Array.Sort(tenNumbers);
+            Console.WriteLine(tenNumbers[0]);
+            Console.WriteLine(tenNumbers[9]);
 
 
 
